@@ -1,0 +1,20 @@
+{
+    "name": "@animalus/ng-pug",
+    "version": "0.0.1",
+    "description": "Gulp utils for using pug with angular",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/animalus/ng-pug.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/animalus/ng-pug/issues"
+    },
+    "homepage": "https://github.com/animalus/ng-pug#readme",
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-pug": "^5.0.0",
+        "pug-plugin-ng": "^0.0.3"
+    }
+}
