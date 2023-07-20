@@ -2,6 +2,7 @@
     "name": "@animalus/ng-pug",
     "version": "0.0.1",
     "description": "Gulp utils for using pug with angular",
+    "main": "index.mjs",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/animalus/ng-pug.git"

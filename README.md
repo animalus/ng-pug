@@ -9,10 +9,10 @@ Create a `gulpfile.mjs` file and add the following.
 Assuming a standard project in which your source code is under a "src" directory.
 
 ```mjs
+import { addPugTasks } from "@animalus/ng-pug";
 import gulp from "gulp";
-import ngpug from "@animalus/ng-pug";
 
-ngpug.addPugTasks(gulp);
+addPugTasks(gulp);
 ```
 
 This will add 2 tasks. `pug` which simply compiles all of your pug templates. And `pugwatch` which you can use to set up a watch to recompile on changes. I use the latter in conjunction with`ng serve`(I use`concurrent` to run them in parallel) so that a change in the template or code results in an update of the app.
