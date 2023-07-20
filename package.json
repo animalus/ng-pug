@@ -1,6 +1,6 @@
 {
     "name": "@animalus/ng-pug",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Gulp utils for using pug with angular",
     "main": "index.mjs",
     "repository": {
